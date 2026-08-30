@@ -1,0 +1,34 @@
+User Story 1 — Schedule a post
+As an Instagram user, I want to schedule a post for a specific date and time so that I can publish content automatically.
+
+GIVEN the user has created a post, WHEN they choose a future date and time, THEN they can schedule the post.
+GIVEN the post has been scheduled, WHEN the scheduled time arrives, THEN the post is published automatically.
+GIVEN the user schedules a post, WHEN they view their scheduled posts, THEN they can see the scheduled date and time.
+
+User Story 2 — Edit a scheduled post
+As an Instagram user, I want to edit a scheduled post so that I can change its content before it is published.
+
+GIVEN the user has a scheduled post, WHEN they open it, THEN they can edit its caption.
+GIVEN the user edits the scheduled post, WHEN they save the changes, THEN the updated content is saved.
+GIVEN the user has changed the scheduled time, WHEN they save the changes, THEN the post is scheduled for the new time.
+
+User Story 3 — Cancel a scheduled post
+As an Instagram user, I want to cancel a scheduled post so that it is not published.
+
+GIVEN the user has a scheduled post, WHEN they choose to cancel it, THEN they are asked to confirm the cancellation.
+GIVEN the user confirms the cancellation, WHEN the cancellation is completed, THEN the post is removed from the scheduled posts.
+GIVEN the user cancels a scheduled post, WHEN the scheduled time arrives, THEN the post is not published.
+
+User Story 4 — View scheduled posts
+As an Instagram user, I want to view all my scheduled posts so that I can keep track of my upcoming content.
+
+GIVEN the user has scheduled posts, WHEN they open their scheduled posts, THEN they can see all upcoming posts.
+GIVEN multiple posts are scheduled, WHEN the user views them, THEN each post displays its scheduled date and time.
+GIVEN the user has no scheduled posts, WHEN they open the scheduled posts section, THEN they are informed that there are no upcoming posts.
+
+User Story 5 — Receive a notification
+As an Instagram user, I want to receive a notification when my scheduled post is published so that I know that it was successfully posted.
+
+GIVEN the user has a scheduled post, WHEN it is successfully published, THEN the user receives a notification.
+GIVEN the post fails to publish, WHEN the scheduled time passes, THEN the user receives a notification informing them that the post was not published.
+GIVEN the user receives a notification, WHEN they select it, THEN they can view the published post or the publishing error.
