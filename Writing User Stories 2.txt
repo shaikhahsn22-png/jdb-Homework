@@ -1,0 +1,24 @@
+Writing User Stories
+
+As an Instagram user, I want to schedule my post, so that I can manage my content in advance.
+Given I scheduled a post, when i tap confirm, then the post is saved as scheduled and published automatically at the chosen time.
+Given I try to schedule a post for past date, when I attempt to confirm it, then the system shows an error message.
+Given a post is scheduled, when I tap scheduled post, then I see post listed with its scheduled date and time.
+
+
+As an Instagram user, I want to edit my drafts before its published, so that I prevent any mistake before the post goes online.
+Given I edited my post, when i tap save, then all changes are saved successfully and appears in scheduled post.
+Given I published a post, when i try to edit it, then an error appears that published posts cannot be edited.
+
+As an Instagram user, I want to be able to cancel a scheduled post, so that I manage unwanted or irrelevant content.
+Given I scheduled a post, when I tap cancel, then a confirmation prompt appears asking me to confirm before the post is removed.
+Given I cancelled a scheduled post, when I tap cancelled posts, then i can see a list of all cancelled posts.
+ 
+As an Instagram user, I want to be notified when a post is published, so that  i keep up with interactions.
+Given a scheduled post is published, when the post goes live, then I receive a notification confirming it was posted.
+Given I receive a publish notification, when I tap on it, then I am taken directly to the published post
+
+As an Instagram user, I want to sort and filter my draft, so that I see organized draft by date, size, and so on.
+Given I have multiple drafts, when I select "sort by date," then my drafts are displayed from newest to oldest.
+Given I have multiple drafts, when I apply a filter (e.g. by date  or size), then drafts are filtered and shown.
+
